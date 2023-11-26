@@ -792,6 +792,8 @@ footer div a{
   justify-content: center;
   align-items: center;
   border-radius: 50px;
+
+  display: none;
 }
 
 .arrow i{
@@ -850,7 +852,12 @@ footer div a{
     width: 100%;
     margin: 0 auto;
   }
-  
+
+  .arrow{
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width: 570px){
