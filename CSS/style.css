@@ -792,7 +792,7 @@ footer div a{
   justify-content: center;
   align-items: center;
   border-radius: 50px;
-
+  color: var(--color-primary);
   display: none;
 }
 
@@ -914,9 +914,9 @@ footer div a{
     width: 100%
   }
   
-  .info-button button{
+  /* .info-button button{
     font-size: 12px;
-  }
+  } */
 
   /* SERVICE SECTION */
 
