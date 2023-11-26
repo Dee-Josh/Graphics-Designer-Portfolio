@@ -490,6 +490,20 @@ nav.nav ul li a{
   border-radius: 10px;
 }
 
+/* Extra Details */
+
+.extra-details{
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  color: var(--color-white);
+  text-align: center;
+}
+
+/* .extra-details h2{
+  color: var(--color-primary);
+} */
+
 /* SERVICES SECTION */
 
 .services{
@@ -514,11 +528,17 @@ nav.nav ul li a{
   box-shadow: var(--box-shadow);
   padding-bottom: 5px;
   transition: all .5s;
+  position: relative;
 }
 
 .service-details div:hover{
   transform: translateY(-10px);
   cursor: pointer;
+}
+
+.service-details div img{
+  width: 380px;
+  min-height: 260px;
 }
 
 .service-details div h3:nth-child(2){
