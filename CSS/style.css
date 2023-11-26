@@ -883,6 +883,11 @@ footer div a{
     columns: 1;
   }
 
+  .extra-details{
+    gap: initial;
+    justify-content: space-between;
+  }
+
 }
 
 @media screen and (max-width: 460px){
